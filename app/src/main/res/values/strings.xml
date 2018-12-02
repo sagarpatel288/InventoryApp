@@ -1,0 +1,121 @@
+<resources>
+    <!-- App Name [CHAR LIMIT=20] -->
+    <string name="app_name">InventoryApp</string>
+
+    <!-- Defaul empty view for product list view in case of no data [CHAR LIMIT= NONE] -->
+    <string name="label_tap_floating_bottom_button_to_add_dummy_data">Tap floating action button at bottom right corner to add dummy data</string>
+
+    <!-- AddEditDetail Screen Toolbar Title [CHAR LIMIT=20] -->
+    <string name="label_add_data">Add Data</string>
+
+    <!-- Plus text for quantity button [CHAR LIMIT=3] -->
+    <string name="icon_plus">+</string>
+
+    <!-- Minus text for quantity button [CHAR LIMIT=3] -->
+    <string name="icon_minus">-</string>
+
+    <!-- AddEditDetail Screen bottom button text to open up dialer [CHAR LIMIT=20] -->
+    <string name="label_order">order</string>
+
+    <!-- Content description for detail screen banner edit image [CHAR LIMIT=NONE] -->
+    <string name="cd_edit_image">edit image</string>
+
+    <!-- Content description for detail screen banner image [CHAR LIMIT=NONE] -->
+    <string name="cd_product_image">product image</string>
+
+    <!-- Text to show when there is no supplier available [CHAR LIMIT=20] -->
+    <string name="label_not_available">Not Available</string>
+
+    <!-- Detail screen product name title above product name value  [CHAR LIMIT=20] -->
+    <string name="label_product_name">Product Name</string>
+
+    <!-- Detail screen unit price title beside unit price input text field  [CHAR LIMIT=20] -->
+    <string name="label_unit_price">Unit Price</string>
+
+    <!-- Default text to denote quantity field and variation  [CHAR LIMIT=20] -->
+    <string name="label_quantity">Quantity</string>
+
+    <!-- Detail screen product total price title beside total price value  [CHAR LIMIT=20] -->
+    <string name="label_total_price">Total Price in INR</string>
+
+    <!-- Detail screen supplier name title below product name value  [CHAR LIMIT=20] -->
+    <string name="label_supplier_name">Supplier Name</string>
+
+    <!-- Detail screen product supplier phone number title below supplier name value  [CHAR LIMIT=20] -->
+    <string name="label_supplier_phone_number">Supplier Phone Number</string>
+
+    <!-- Overflow menu text to save data [CHAR LIMIT=12] -->
+    <string name="action_save">save</string>
+
+    <!-- Overflow menu text to delte data [CHAR LIMIT=12] -->
+    <string name="action_delete">Delete</string>
+
+    <!-- Overflow menu text on product list screen to delete all entries [CHAR LIMIT=20] -->
+    <string name="action_delete_all_entries">Delete All Data</string>
+
+    <!-- AddEditDetail screen toolbar title  [CHAR LIMIT=20] -->
+    <string name="label_edit_data">Edit Item</string>
+
+    <!-- An error to show if product name has left blank  [CHAR LIMIT=40] -->
+    <string name="msg_please_enter_product_name">Please enter product name</string>
+
+    <!-- An error to show if supplier name has left blank  [CHAR LIMIT=40] -->
+    <string name="msg_please_enter_supplier_name">Please enter supplier name</string>
+
+    <!-- A message to show if item has been saved [CHAR LIMIT=30] -->
+    <string name="msg_item_saved">Item saved</string>
+
+    <!-- A message to show if there were no changes made [CHAR LIMIT=30] -->
+    <string name="msg_no_changes">No changes</string>
+
+    <!-- An error to show if saving the item gets failed  [CHAR LIMIT=50] -->
+    <string name="label_error_with_saving_item">Error with saving the item</string>
+
+    <!-- A message to show if maximum allowed quantity has been reached  [CHAR LIMIT=70] -->
+    <string name="msg_maximum_quantity_reached">Maximum allowed quantity reached</string>
+
+    <!-- A message to show if quantity is reached to minimum allowed limit  [CHAR LIMIT=70] -->
+    <string name="msg_quantity_cannot_be_less_than_one">Quantity cannot be less than 1</string>
+
+    <!-- A message to show if maximum allowed unit price value has been reached  [CHAR LIMIT=70] -->
+    <string name="msg_max_unit_price_changed">Maximum unit price reached</string>
+
+    <!-- An error message to show that unit price cannot be empty  [CHAR LIMIT=70] -->
+    <string name="msg_unit_price_cannot_be_empty">Unit Price cannot be empty</string>
+
+    <!-- An error message to show if quantity has been left empty  [CHAR LIMIT=70] -->
+    <string name="msg_quantity_cannot_be_empty">Quantity cannot be empty</string>
+
+    <!-- A response message to show on denying the run time permission [CHAR LIMIT=200] -->
+    <string name="msg_permission_denied_rational_default"><![CDATA[If you reject permission,you can not use this service  Please turn on permissions at [Setting] > [Permission]]]></string>
+
+    <!-- Currency for total price  [CHAR LIMIT=20] -->
+    <string name="label_total_inr">Total INR</string>
+
+    <!-- Content title to be shown for dialog on leaving the changes unsaved  [CHAR LIMIT=70] -->
+    <string name="unsaved_changes_dialog_msg">Discard unsaved changes?</string>
+
+    <!-- Button text to accept discard option and to leave changes  [CHAR LIMIT=20] -->
+    <string name="discard">Discard</string>
+
+    <!-- Button text to accept and continue edit option to save changes  [CHAR LIMIT=20] -->
+    <string name="keep_editing">Keep Editing</string>
+
+    <!-- Warning message to show while trying to delete any item [CHAR LIMIT=40] -->
+    <string name="delete_dialog_msg">Delete this item?</string>
+
+    <!-- Button text to accept delete option [CHAR LIMIT=20] -->
+    <string name="delete">Delete</string>
+
+    <!-- Button text to accept cancel option [CHAR LIMIT=20] -->
+    <string name="cancel">Cancel</string>
+
+    <!-- Informative message to show after the item gets delete [CHAR LIMIT=40] -->
+    <string name="msg_product_deleted">Product deleted</string>
+
+    <!-- Product list screen toolbar title [CHAR LIMIT=40] -->
+    <string name="label_product_list">Product List</string>
+
+    <!-- Warning text on dialog while trying to delete all items [CHAR LIMIT=50] -->
+    <string name="msg_delete_all_products">Delete all products?</string>
+</resources>

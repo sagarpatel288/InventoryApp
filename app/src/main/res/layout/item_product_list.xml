@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/view_space_8"
+        android:paddingLeft="@dimen/view_space_8"
+        android:paddingStart="@dimen/view_space_8"
+        android:paddingEnd="@dimen/view_space_8"
+        android:paddingRight="@dimen/view_space_8"
+        android:descendantFocusability="blocksDescendants"
+        >
+
+        <com.mikhaellopez.circularimageview.CircularImageView
+            android:id="@+id/civ"
+            android:layout_width="@dimen/width_image_product_list"
+            android:layout_height="@dimen/height_image_product_list"
+            android:layout_margin="@dimen/view_space_8"
+            android:padding="@dimen/view_space_12"
+            app:civ_border="true"
+            app:civ_border_color="@color/colorOrange"
+            app:civ_border_width="@dimen/width_border"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/bg_circle_base"
+            />
+
+        <TextView
+            android:id="@+id/tv_name"
+            style="@style/TvTitle.Scrollable"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            tools:text="@string/placeholder"
+            android:paddingLeft="@dimen/view_space_8"
+            android:paddingStart="@dimen/view_space_8"
+            android:paddingEnd="@dimen/view_space_8"
+            android:paddingRight="@dimen/view_space_8"
+            app:layout_constraintStart_toEndOf="@+id/civ"
+            app:layout_constraintLeft_toRightOf="@+id/civ"
+            app:layout_constraintTop_toTopOf="@id/civ"
+            app:layout_constraintEnd_toStartOf="@+id/layout_quantity"
+            app:layout_constraintRight_toLeftOf="@+id/layout_quantity"
+            app:layout_constraintHorizontal_bias="0"
+            />
+
+        <TextView
+            android:id="@+id/tv_price"
+            style="@style/TvSubtitle.Scrollable"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            tools:text="@string/placeholder"
+            android:paddingLeft="@dimen/view_space_8"
+            android:paddingStart="@dimen/view_space_8"
+            android:paddingEnd="@dimen/view_space_8"
+            android:paddingRight="@dimen/view_space_8"
+            android:paddingBottom="@dimen/view_space_8"
+            app:layout_constraintStart_toEndOf="@+id/civ"
+            app:layout_constraintLeft_toRightOf="@+id/civ"
+            app:layout_constraintBottom_toBottomOf="@id/civ"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintHorizontal_bias="0"
+            />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/layout_quantity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/view_space_8"
+            app:layout_constraintTop_toTopOf="@id/civ"
+            app:layout_constraintBottom_toBottomOf="@id/civ"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            >
+
+            <include
+                android:id="@+id/include_layout_quantity"
+                layout="@layout/item_layout_quantity"/>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/layout_root_quantity_cl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_btn_minus"
+            android:layout_width="@dimen/size_chip_quantity"
+            android:layout_height="@dimen/size_chip_quantity"
+            android:background="@drawable/bg_circle_ring"
+            android:gravity="center"
+            android:text="@string/icon_minus"
+            android:textSize="@dimen/tv_12"
+            app:layout_constraintBottom_toBottomOf="@id/civ"
+            app:layout_constraintTop_toTopOf="@id/civ"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/til_quantity"
+            style="@style/TvSubtitle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:paddingStart="@dimen/view_space_8"
+            android:paddingLeft="@dimen/view_space_8"
+            android:paddingEnd="@dimen/view_space_8"
+            android:paddingRight="@dimen/view_space_8"
+            app:layout_constraintBottom_toBottomOf="@id/tv_btn_minus"
+            app:layout_constraintTop_toTopOf="@id/tv_btn_minus"
+            app:layout_constraintStart_toEndOf="@+id/tv_btn_minus"
+            app:layout_constraintLeft_toRightOf="@+id/tv_btn_minus"
+            app:layout_constraintEnd_toStartOf="@+id/tv_btn_plus"
+            app:layout_constraintRight_toLeftOf="@+id/tv_btn_plus"
+            tools:text="@string/placeholder"
+            >
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/et_quantity"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/label_quantity"
+                android:inputType="number"
+                android:singleLine="true"
+                android:maxLines="1"
+                android:imeOptions="actionNext"
+                />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <TextView
+            android:id="@+id/tv_btn_plus"
+            android:layout_width="@dimen/size_chip_quantity"
+            android:layout_height="@dimen/size_chip_quantity"
+            android:background="@drawable/bg_circle_ring"
+            android:gravity="center"
+            android:text="@string/icon_plus"
+            android:textSize="@dimen/tv_title"
+            app:layout_constraintBottom_toBottomOf="@id/tv_btn_minus"
+            app:layout_constraintTop_toTopOf="@id/tv_btn_minus"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</layout>

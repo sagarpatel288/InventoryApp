@@ -1,0 +1,65 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <!--color for toolbar, actionBar-->
+        <item name="colorPrimary">@color/design_default_color_primary</item>
+        <!--color for statusBar-->
+        <item name="colorPrimaryDark">@color/colorTranslucentStatusbar</item>
+        <!--Color for checked and selected status for radioButton, checkBox etc...-->
+        <item name="colorAccent">@android:color/white</item>
+        <!-- Background color of buttons in the app -->
+        <item name="colorButtonNormal">@color/design_default_color_primary</item>
+        <!--Checkboxes-->
+        <item name="android:checkboxStyle">@style/MyCheckbox</item>
+        <item name="checkboxStyle">@style/MyCheckbox</item>
+        <!--Radio buttons-->
+        <item name="android:radioButtonStyle">@style/MyRadioButton</item>
+        <item name="radioButtonStyle">@style/MyRadioButton</item>
+    </style>
+
+    <!--Style for the checkboxes-->
+    <style name="MyCheckbox" parent="Base.Widget.AppCompat.CompoundButton.CheckBox">
+        <item name="buttonTint">@android:color/white</item>
+    </style>
+
+    <!--Style for the radio buttons-->
+    <style name="MyRadioButton" parent="Base.Widget.AppCompat.CompoundButton.RadioButton">
+        <item name="buttonTint">@android:color/white</item>
+    </style>
+
+    <!--TextView Title (Heading 1) Style-->
+    <style name="TvTitle">
+        <item name="android:textSize">@dimen/tv_title</item>
+        <item name="android:textColor">@color/colorBlack</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <!--Scrollable single line Title TextView-->
+    <style name="TvTitle.Scrollable">
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:marqueeRepeatLimit">marquee_forever</item>
+        <item name="android:scrollHorizontally">true</item>
+        <item name="android:freezesText">true</item>
+    </style>
+
+    <!--TextView Subtitle (Heading 2) Style-->
+    <style name="TvSubtitle" parent="TvTitle">
+        <item name="android:textSize">@dimen/tv_subtitle</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <!--Scrollable single line Subtitle TextView-->
+    <style name="TvSubtitle.Scrollable">
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:marqueeRepeatLimit">marquee_forever</item>
+        <item name="android:scrollHorizontally">true</item>
+        <item name="android:freezesText">true</item>
+    </style>
+
+</resources>

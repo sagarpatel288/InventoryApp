@@ -1,0 +1,6 @@
+<resources>
+    <!--Placeholder text to check [Not Translatable. A Symbol.]-->
+    <string name="placeholder_short" translatable="false">-</string>
+    <!--Placeholder text to check [CHAR LIMIT = 10, Single line]-->
+    <string name="placeholder" translatable="false">placeholder</string>
+</resources>

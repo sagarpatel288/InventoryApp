@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--View space-->
+    <dimen name="view_space_8">8dp</dimen>
+    <!--View space align to right end menu icon of toolbar-->
+    <dimen name="view_space_10">10dp</dimen>
+    <!--View space for title to subtitle-->
+    <dimen name="view_space_12">12dp</dimen>
+    <!--View space for title to title-->
+    <dimen name="view_space_18">18dp</dimen>
+    <!--View space for different section-->
+    <dimen name="view_space_20">20dp</dimen>
+    <!--View space align to left home up arrow-->
+    <dimen name="view_space_22">22dp</dimen>
+    <!--View space for title to title-->
+    <dimen name="view_space_28">28dp</dimen>
+
+    <!--Image width for product list item-->
+    <dimen name="width_image_product_list">70dp</dimen>
+    <!--Image height for product list item-->
+    <dimen name="height_image_product_list">70dp</dimen>
+
+    <!--Title (Heading 1, Product Name, Price, Supplier etc...)-->
+    <dimen name="tv_title">16sp</dimen>
+    <!--Subtitle (Heading 2, Product Price, name value, supplier phone number etc...)-->
+    <dimen name="tv_subtitle">14sp</dimen>
+    <!--Smallest possible text view size-->
+    <dimen name="tv_12">12sp</dimen>
+
+    <!--Border width for product list item imageView and quantity text button view-->
+    <dimen name="width_border">2dp</dimen>
+
+    <!--Height of image view in detail screen-->
+    <dimen name="height_image_detail">180dp</dimen>
+    <!--Size of chip for quantity plus and minus-->
+    <dimen name="size_chip_quantity">30dp</dimen>
+
+    <!--Minimum width of quantity picker in add edit detail screen-->
+    <dimen name="width_quantity">190dp</dimen>
+</resources>
